@@ -26,6 +26,9 @@ class Heap{
     
     /*
     * Changes priority of the node and adjusts the heap accordingly
+    @param data: data of the node to be changed
+    @param oldPriority: old priority of the node
+    @param newPriority: new priority of the node
     */
     void changePriority(int data, int oldPriority, int newPriority);
 

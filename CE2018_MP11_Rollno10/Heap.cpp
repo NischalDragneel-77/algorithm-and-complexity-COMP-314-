@@ -47,7 +47,7 @@ void Heap::changePriority(int data, int oldPriority, int newPriority){
     };
     //find the index of the node
     int index = findIndex(data);
-    std::cout<<index<<std::endl;
+    // std::cout<<index<<std::endl;
     //if the node is not found
     if(index == -1) {
         std::cout<<"Node not found\n";
@@ -129,7 +129,7 @@ void Heap::traverseUp(Node* currentNode, int currentIndex){
 }
 
 void Heap::traverseDown(Node* currentNode, int currentIndex){
-    //from the given index of the givem node find the index of its 
+    //from the given index of the given node find the index of its 
     //corresponding left and right child
     int leftIndex = 2*currentIndex;
     int rightIndex = 2*currentIndex+1;

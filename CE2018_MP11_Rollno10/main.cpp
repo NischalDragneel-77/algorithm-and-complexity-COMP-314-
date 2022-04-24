@@ -21,7 +21,7 @@ int main(){
     h1.traverse();
 
     h1.changePriority(13,13,11);
-    // int head = h1.removeFromHeap();
+    // head = h1.removeFromHeap();
     h1.traverse();
-    std::cout<<"DOne :D";
+    std::cout<<"Completed ";
 }
